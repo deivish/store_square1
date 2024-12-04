@@ -1,1 +1,30 @@
-@import "./reset.css"
+@import "./reset.css";
+@import "./fonts.css";
+@import "./components/index.css";
+
+:root {
+    font-size: 8px;
+    /*Colors*/
+    --color-primary: #ED1C24;
+    --color-black: #191919;
+    --color-white: #ffffff; 
+    --color-darker-gray: #cccccc;
+    --color-lighter-gray: #fafafa; 
+}
+
+p, a, span {
+    font-size: 2rem;
+}
+
+P {
+    font-family: "Poppins";
+}
+
+.img-logo {
+    display: block;
+}
+
+.icon {
+    stroke: currentColor;
+}
+
