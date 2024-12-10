@@ -10,4 +10,5 @@
     min-height: calc(100dvh - 111px);
     box-sizing: border-box;
     margin-inline: auto;
+    background-color: var(--color-lighter-gray);
 }

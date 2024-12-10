@@ -124,6 +124,8 @@
     overflow: hidden; 
     background-color: #f4f4f4; 
     position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /* Imagen responsiva */
@@ -133,6 +135,7 @@
     object-fit: cover; 
     filter: blur(2px) brightness(55%);
     clip-path: inset(0 0 30% 0);
+    display: block;
 }
 
 .banner-summer-season {

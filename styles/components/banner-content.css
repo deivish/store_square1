@@ -49,3 +49,20 @@
     color: var(--color-white);
     
 }
+
+.brands {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.brands > img {
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+    
+}
