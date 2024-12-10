@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./footer.css";
 @import "./new-arrivals.css";
+@import "./banner-content.css";
 
 .main {
     width: 100%;

@@ -10,7 +10,8 @@
     --color-black: #191919;
     --color-white: #ffffff; 
     --color-darker-gray: #cccccc;
-    --color-lighter-gray: #fafafa; 
+    --color-lighter-gray: #fafafa;
+    --color-second-lighter: #A86A3D; 
 }
 
 * {
