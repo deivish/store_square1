@@ -112,13 +112,14 @@
 }
 
 .banner-container {
-    width: 100%; /* Ocupa todo el ancho disponible */
-    height: 443px; /* Ajusta la altura automáticamente */
-    display: flex; /* Alineación flexible (opcional) */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente (si tiene altura fija) */
-    overflow: hidden; /* Evita contenido fuera del contenedor */
-    background-color: #f4f4f4; /* Color de fondo (opcional) */
+    width: 100%; 
+    height: 443px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+    background-color: #f4f4f4; 
+    position: relative;
 }
 
 /* Imagen responsiva */
@@ -126,6 +127,93 @@
     width: 100%; 
     height: 443px;
     object-fit: cover; 
-    filter: blur(3px);
-    filter: grayscale(10%);
+    filter: blur(2px) brightness(55%);
+    clip-path: inset(0 0 30% 0);
 }
+
+.banner-summer-season {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 70px;
+}
+
+.banner-summer-season > .extra-online {
+    font-size: 2.5rem;
+    color: var(--color-white);
+    font-family: "Poppins";
+}
+
+.banner-summer-season > .summer-sale {
+    font-size: 5rem;
+    color: var(--color-white);
+    font-family: "Poppins";
+}
+
+.banner-summer-season > .summer-text {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-family: "Poppins";
+    margin-inline: auto;
+    text-wrap: pretty;
+    max-width: 514px;
+
+}
+
+.banner-summer-season > .shop-btn {
+    width: 135px;
+    height: 50px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border: solid 1px var(--color-primary);
+    border-radius: 1.5rem;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+/* icons */
+
+.features-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #fff; 
+    padding: 100px 200px; 
+  }
+  
+  .feature-item {
+    display: flex; 
+    align-items: center; 
+    max-width: 300px; 
+  }
+  
+  .feature-icon {
+    width: 50px; 
+    height: auto;
+    margin-right: 15px; 
+  }
+  
+  .feature-text {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .feature-text h3 {
+    font-size: 2rem;
+    color: var(--color-black); 
+    margin: 0; 
+    opacity: 0.7;
+  }
+  
+  .feature-text p {
+    font-size: 14px;
+    color: #666; 
+    margin: 5px 0 0 0; 
+  }
+  
+  
