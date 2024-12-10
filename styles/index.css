@@ -1,6 +1,7 @@
 @import "./reset.css";
 @import "./fonts.css";
 @import "./components/index.css";
+@import "./components/product-card.css";
 
 :root {
     font-size: 8px;
@@ -12,13 +13,14 @@
     --color-lighter-gray: #fafafa; 
 }
 
+* {
+    font-family: "Poppins";
+
+}
 p, a, span {
     font-size: 2rem;
 }
 
-P {
-    font-family: "Poppins";
-}
 
 .img-logo {
     display: block;

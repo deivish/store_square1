@@ -1,0 +1,131 @@
+.product-card {
+    border: solid 1px #e5e5e5;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card_image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
+    border-radius: 1.25rem;
+    margin-block-end: 1.5rem;
+}
+
+.product-card_tittle {
+    color: var(--color-black);
+    font-weight: 500;
+    font-size: 2.5rem;
+    font-family: "Poppins";
+
+}
+
+.product-card_brand {
+    display: block;
+    color: var(--color-black);
+    opacity: 0.5;
+    font-size: 1.5rem;
+    margin-block-end: 0.5rem;
+}
+
+.product-card_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    color: var(--color-black);
+    font-size: 2.2rem;
+    gap: 0.85rem;
+}
+
+.product-card_price > .product-card_discount-price {
+    font-size: 2.25rem;
+}
+
+.product-card_price > .product-card_original_price {
+    font-size: 1.75rem;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.product-card_colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-block-end: 2.5rem;
+    flex: 1;
+}
+
+.product-color {
+    width: 3.25rem;
+    height: 3.25rem;
+    aspect-ratio: 1;
+    background-color: blueviolet;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px transparent;
+    transition: all 0.3s;
+}
+
+.product-color:hover {
+    border-color: var(--color-primary);
+}
+
+.product-card_buy {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border: solid 1px var(--color-primary);
+    border-radius: 1rem;
+    color: var(--color-primary);
+    background-color: transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.product-card_buy:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.vie-more_btn {
+    width: 207px;
+    height: 56px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border: solid 1px var(--color-primary);
+    border-radius: 1.5rem;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.banner-container {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: 443px; /* Ajusta la altura automáticamente */
+    display: flex; /* Alineación flexible (opcional) */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente (si tiene altura fija) */
+    overflow: hidden; /* Evita contenido fuera del contenedor */
+    background-color: #f4f4f4; /* Color de fondo (opcional) */
+}
+
+/* Imagen responsiva */
+.banner-image {
+    width: 100%; 
+    height: 443px;
+    object-fit: cover; 
+    filter: blur(3px);
+    filter: grayscale(10%);
+}
