@@ -2,6 +2,8 @@
 @import "./footer.css";
 @import "./new-arrivals.css";
 @import "./banner-content.css";
+@import "./shop-page/header.css";
+@import "./shop-page/filter-container.css";
 
 .main {
     width: 100%;
