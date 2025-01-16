@@ -1,0 +1,296 @@
+/* Estructura general */
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    border: solid 1px rgb(20, 148, 20);
+    height: auto;
+}
+
+.container h4 {
+    font-size: 2rem;
+    font-family: 'Volkhov';
+
+}
+
+.column-left {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: solid 1px blue;
+    box-sizing: border-box;
+}
+
+.column-center {
+    width: 40%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px blue;
+    box-sizing: border-box;
+}
+
+
+.column-right {
+    width: 50%;
+    padding: 20px;
+    border: solid 1px blue;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.column-right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Volkhov';
+}
+
+.header-icon-star {
+    display: flex;
+    justify-content: flex-end;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 150ms;
+    color: var(--color-black);
+    border: solid 1px var(--color-darker-gray);
+    border-radius: 50%;
+}
+
+.header-icon-star:hover {
+    color: var(--color-primary);
+}
+
+.rating {
+    color: var(--color-black);
+    font-size: 18px;
+}
+
+.price {
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: 'Volkhov';
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: var(--color-gray);
+    margin-left: 10px;
+    font-family: 'Jost Variable';
+
+}
+
+.discount {
+    color: var(--color-primary);
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Jost Variable';
+}
+
+.stock-info_icon {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.stock-info p {
+    font-size: 2rem;
+    color: var(--color-gray);
+    font-family: "Poppins";
+
+}
+
+.sale-timer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: #ffe6e6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-family: 'Volkhov';
+}
+
+.sale-timer>span {
+    font-size: 2.4rem;
+}
+
+.items-left {
+    color: red;
+    font-size: 1.5rem;
+    font-family: 'Jost Variable';
+}
+
+.sizes {
+    display: grid;
+    margin-top: 2rem;
+}
+
+.btn-sizes {
+    display: flex;
+}
+
+.btn-sizes>button {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.sizes button,
+.quantity button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sizes button:hover,
+.quantity button:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.colors {
+    margin-top: 2rem;
+}
+
+.colors .color-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.color-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.color-circle:hover {
+    border: solid 1px var(--color-black);
+    cursor: pointer;
+    box-shadow: 0 0 0 4px white;
+}
+
+
+.color-circle.blue {
+    background-color: blue;
+}
+
+.color-circle.black {
+    background-color: black;
+}
+
+.color-circle.pink {
+    background-color: pink;
+}
+
+.quantity-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.quantity {
+    margin-top: 2rem;
+}
+
+.quantity button {
+    height: 46px;
+    font-size: 2rem;
+}
+
+.quantity input {
+    width: 30px;
+    height: 46px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 2rem;
+}
+
+.container-icons {
+    display: flex;
+    gap: 24px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.component-icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    gap: 8px;
+}
+
+.component-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.component-icon span {
+    margin: 0;
+}
+
+
+
+.add-to-cart {
+    width: 449px;
+    height: 45px;
+    background-color: transparent;
+    color: var(--color-black);
+    font-family: 'Volkhov';
+    border: 1px solid (--color-gray);
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.add-to-cart:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.details {
+    display: flex;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+.details svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.guarantee{
+    width: 100%;
+
+}
+.guarantee img {
+    margin-top: 10px;
+    width: 100%;
+
+}

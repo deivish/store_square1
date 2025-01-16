@@ -4,6 +4,7 @@
 @import "./banner-content.css";
 @import "./shop-page/header.css";
 @import "./shop-page/filter-container.css";
+@import "./product-page/product-page.css";
 
 .main {
     width: 100%;
