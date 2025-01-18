@@ -5,6 +5,7 @@
 @import "./shop-page/header.css";
 @import "./shop-page/filter-container.css";
 @import "./product-page/product-page.css";
+@import "./cart-page/cart-page.css";
 
 .main {
     width: 100%;

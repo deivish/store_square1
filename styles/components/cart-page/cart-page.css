@@ -1,0 +1,262 @@
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.shopping-cart {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.shopping-cart h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-family: 'Volkhov';
+}
+
+.breadcrumbs {
+    font-size: 1.5rem;
+    color: #777;
+    align-content: center;
+    font-family: 'Jost Variable';
+}
+
+.breadcrumbs a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.breadcrumbs span {
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Volkhov';
+}
+
+.product-header,
+.product-item {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.product-header,
+.product-item,
+.product-total {
+    display: flex;
+    padding: 10px 0;
+}
+
+.product-header {
+    font-weight: bold;
+    
+}
+
+.product-col {
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+    font-family: 'Volkhov';
+
+}
+
+.product-total {
+    font-weight: bold;
+    justify-content: flex-end;
+    font-family: 'Volkhov';
+
+}
+
+.total-label {
+    flex: 2;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.total-value {
+    flex: 1;
+    text-align: left;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    font-family: Arial, sans-serif;
+}
+
+.cart-item__image img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+.cart-item__details {
+    flex: 2;
+    display: grid;
+    padding: 0 15px;
+    align-self: start;
+    row-gap: 20px;
+}
+
+.cart-item__title {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Volkhov';
+}
+
+.cart-item__price {
+    display: flex;
+    margin: 5px 0;
+    font-size: 14px;
+    flex: 3;
+    text-align: left;
+    gap: 5px;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.cart-item__color {
+    font-size: 14px;
+    color: #555;
+}
+
+.cart-item__remove {
+    font-size: 14px;
+    color: var(--color-gray);
+    cursor: pointer;
+}
+
+.cart-item__remove:hover {
+    text-decoration: underline;
+}
+
+.cart-item__quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quantity-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.cart-item__total-price {
+    flex: 2;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.checkout-container {
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.wrap-product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.wrap-checkbox {
+    margin-right: 10px;
+}
+
+.wrap-product span {
+    font-size: 14px;
+    color: #555;
+    font-family: 'Poppins';
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.subtotal-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.subtotal-label {
+    color: #555;
+    font-family: 'Volkhov';
+
+}
+
+.subtotal-value {
+    font-weight: bold;
+}
+
+.checkout-btn {
+    width: 100%;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins';
+}
+
+.checkout-btn:hover {
+    background-color: #d62839;
+}
+
+.view-cart {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    font-family: 'Volkhov';
+
+}
+
+.view-cart:hover {
+    text-decoration: underline;
+}

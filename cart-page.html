@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <div class="main-header">
+          <div class="header-logo-box">
+            <button class="menu-btn">
+              <!-- icono de hamburguesa -->
+              <svg
+                class="header-icon icons-menu"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+            <!-- logo -->
+            <a href="/index.html">
+              <img
+                src="/assets/images/logo.svg"
+                alt="Square1 Academy Store Logo"
+                width="120"
+                height="37"
+                class="img-logo"
+              />
+            </a>
+          </div>
+
+          <div class="header-icons">
+            <!-- Icono Search -->
+            <a href="#" class="header-icon icons-search">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </a>
+
+            <!-- User Profile -->
+            <a href="#" class="header-icon icon-profile">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="header-icon icon-shopping">
+              <img src="./assets/images/basket.png" alt="24/7 Support" />
+            </a>
+          </div>
+        </div>
+        <nav class="header-nav">
+          <a href="#" class="nav-item">WOMEN</a>
+          <a href="#" class="nav-item">MEN</a>
+          <a href="#" class="nav-item">KIDS</a>
+          <a href="#" class="nav-item">ACCESORIES</a>
+          <a href="#" class="nav-item">ABOUT US</a>
+          <a href="#" class="nav-item">NEWS</a>
+          <a href="#" class="nav-item">CONTACT US</a>
+        </nav>
+      </header>
+
+      <div class="shopping-cart">
+        <h1>Shopping Cart</h1>
+        <p class="breadcrumbs">
+          <a href="#">Home</a> <span>></span> Your Shopping Cart
+        </p>
+      </div>
+
+      <div class="product-list">
+        <div class="product-total">Total</div>
+
+        <div class="product-header">
+          <div class="product-col">Product</div>
+          <div class="product-col">Price</div>
+          <div class="product-col">Quantity</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <div class="cart-item__image">
+          <img
+            src="https://wearoldmoney.com/cdn/shop/files/old_money_t-shirt_white.jpg"
+            alt="Product Image"
+          />
+        </div>
+        <div class="cart-item__details">
+          <h3 class="cart-item__title">Mini Dress With Ruffled Straps</h3>
+          <p class="cart-item__color">Color: Red</p>
+          <a href="#" class="cart-item__remove">Remove</a>
+        </div>
+        <div class="cart-item__price">$14.9000</div>
+        <div class="cart-item__quantity">
+          <button class="quantity-btn">-</button>
+          <input type="text" class="quantity-input" value="01" />
+          <button class="quantity-btn">+</button>
+        </div>
+        <div class="cart-item__total-price">$14.90</div>
+      </div>
+
+      <div class="checkout-container">
+        <div class="wrap-product">
+          <label>
+            <input type="checkbox" class="wrap-checkbox" />
+            <span>For $10.00 Please Wrap The Product</span>
+          </label>
+        </div>
+        <hr class="divider" />
+        <div class="subtotal-container">
+          <span class="subtotal-label">Subtotal</span>
+          <span class="subtotal-value">$100.00</span>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+        <a href="#" class="view-cart">View Cart</a>
+      </div>
+    </div>
+  </body>
+</html>
