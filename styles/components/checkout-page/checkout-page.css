@@ -1,0 +1,235 @@
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.checkout {
+    text-align: center;
+    padding: 30px;
+    font-size: 4rem;
+    font-family: 'Volkhov';
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: none;
+    justify-self: center;
+}
+
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Sección de cada formulario */
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-form {
+    background-color: #F5F5F5;
+    padding-bottom: 15px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-form .text {
+    width: 95%;
+}
+
+.form-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Volkhov';
+    color: #484848;
+}
+
+.form-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.form-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-section a:hover {
+    text-decoration: underline;
+}
+
+.form-input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+.checkbox {
+    align-self: flex-start; 
+    margin-top: 10px; 
+    display: flex;
+    gap: 5px; 
+}
+
+.payment-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.payment-form-row {
+    width: 95%;
+}
+
+.form-row .form-input {
+    flex: 1;
+    max-width: 48%;
+}
+
+label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+label input {
+    width: auto;
+}
+
+.pay-now {
+    display: block;
+    width: 100%;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pay-now:hover {
+    background-color: #cc0000;
+}
+
+.custom-select-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.card-logo {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: auto;
+    pointer-events: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #666666;
+}
+
+.right-column {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.order-summary h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.order-image {
+    width: 137px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.order-details h4 {
+    font-size: 16px;
+    margin: 0;
+    color: var(--color-primary);
+    font-family: 'Volkhov';
+}
+
+.order-details p {
+    margin: 2px 0;
+}
+
+.price {
+    margin-left: auto;
+    font-size: 2rem;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.totals div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.total-price {
+    color: var(--color-primary);
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="./styles/components/checkout-page/checkout-page.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="main-header">
+                <div class="header-logo-box">
+                    <button class="menu-btn">
+                        <!-- icono de hamburguesa -->
+                        <svg class="header-icon icons-menu" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                    <!-- logo -->
+                    <a href="/index.html">
+                        <img src="/assets/images/logo.svg" alt="Square1 Academy Store Logo" width="120" height="37"
+                            class="img-logo" />
+                    </a>
+                </div>
+
+                <div class="header-icons">
+                    <!-- Icono Search -->
+                    <a href="#" class="header-icon icons-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </a>
+
+                    <!-- User Profile -->
+                    <a href="#" class="header-icon icon-profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg>
+                    </a>
+
+                    <a href="#" class="header-icon icon-shopping">
+                        <img src="./assets/images/basket.png" alt="24/7 Support" />
+                    </a>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <a href="#" class="nav-item">WOMEN</a>
+                <a href="#" class="nav-item">MEN</a>
+                <a href="#" class="nav-item">KIDS</a>
+                <a href="#" class="nav-item">ACCESORIES</a>
+                <a href="#" class="nav-item">ABOUT US</a>
+                <a href="#" class="nav-item">NEWS</a>
+                <a href="#" class="nav-item">CONTACT US</a>
+            </nav>
+        </header>
+        <div class="checkout">Checkout</div>
+        <div class="container">
+            <div class="left-column">
+                <!-- Formulario de Contact -->
+                <div class="form-section">
+                    <div class="contact">
+                        <h1>Contact</h1>
+                        <p>Have an account? <a href="#">Create Account</a></p>
+                    </div>
+
+                    <form>
+                        <input type="email" placeholder="Email Address" class="form-input" required>
+                    </form>
+                </div>
+
+                <!-- Formulario de Delivery -->
+                <div class="form-section">
+                    <h1>Delivery</h1>
+                    <form>
+                        <select class="form-input" required>
+                            <option value="" disabled selected>Country / Region</option>
+                            <option value="us">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="ca">Canada</option>
+                        </select>
+                        <div class="form-row">
+                            <input type="text" placeholder="First Name" class="form-input" required>
+                            <input type="text" placeholder="Last Name" class="form-input" required>
+                        </div>
+                        <input type="text" placeholder="Address" class="form-input" required>
+                        <div class="form-row">
+                            <input type="text" placeholder="City" class="form-input" required>
+                            <input type="text" placeholder="Postal Code" class="form-input" required>
+                        </div>
+                        <label>
+                            <input type="checkbox"> Save This Info For Future
+                        </label>
+                    </form>
+                </div>
+
+                <!-- Formulario de Payment -->
+                <div class="form-section">
+                    <h1>Payment</h1>
+                    <form>
+                        <div class="payment-form">
+                            <div class="custom-select-container">
+                                <select class="form-input custom-select" required>
+                                    <option value="" disabled selected>Credit Card</option>
+                                    <option value="visa">Visa</option>
+                                    <option value="mastercard">MasterCard</option>
+                                </select>
+                                <img src="./assets/images/trustbag.png" alt="MasterCard" class="card-logo" />
+                            </div>
+                            <input type="text" placeholder="Card Number" class="form-input text" required>
+                            <div class="form-row payment-form-row">
+                                <input type="text" placeholder="Expiration Date" class="form-input text" required>
+                                <input type="text" placeholder="Security Code" class="form-input text" required>
+                            </div>
+                            <input type="text" placeholder="Card Holder Name" class="form-input text" required>
+                            <div class="checkbox">
+                                <label class="payment-checkbox">
+                                    <input type="checkbox"> Save This Info For Future
+                                </label>
+                            </div>
+                        </div>
+                        <button class="pay-now">Pay Now</button>
+                    </form>
+                    <footer>
+                        <p>Copyright © 2022 FASCO . All Rights Reserved.</p>
+                    </footer>
+                </div>
+            </div>
+            <!-- Columna derecha -->
+            <div class="right-column">
+                <div class="order-summary">
+                    <h1>Order Summary</h1>
+                    <div class="order-item">
+                        <img src="https://wearoldmoney.com/cdn/shop/files/old_money_t-shirt_white.jpg" alt="Mini Dress"
+                            class="order-image">
+                        <div class="order-details">
+                            <h4>Mini Dress With Ruffled Straps</h4>
+                            <div class="item-info">
+                                <p class="color">Red</p>
+                                <p class="price">$100.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totals">
+                        <div>
+                            <span>Subtotal</span>
+                            <span>$100.00</span>
+                        </div>
+                        <div>
+                            <span>Shipping</span>
+                            <span>$40.00</span>
+                        </div>
+                        <div>
+                            <span>Total</span>
+                            <span class="total-price">$140.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

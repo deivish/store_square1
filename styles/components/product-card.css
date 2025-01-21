@@ -42,11 +42,11 @@
     gap: 0.85rem;
 }
 
-.product-card_price > .product-card_discount-price {
+.product-card_price>.product-card_discount-price {
     font-size: 2.25rem;
 }
 
-.product-card_price > .product-card_original_price {
+.product-card_price>.product-card_original_price {
     font-size: 1.75rem;
     opacity: 0.5;
     text-decoration: line-through;
@@ -112,17 +112,17 @@
 }
 
 .vie-more_btn:hover {
-    box-shadow: 1px 1px 49px -3px rgba(0,0,0,0.55);
+    box-shadow: 1px 1px 49px -3px rgba(0, 0, 0, 0.55);
 }
 
 .banner-container {
-    width: 100%; 
-    height: 443px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    overflow: hidden; 
-    background-color: #f4f4f4; 
+    width: 100%;
+    height: 443px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f4f4f4;
     position: relative;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -130,9 +130,9 @@
 
 /* Imagen responsiva */
 .banner-image {
-    width: 100%; 
+    width: 100%;
     height: 443px;
-    object-fit: cover; 
+    object-fit: cover;
     filter: blur(2px) brightness(55%);
     clip-path: inset(0 0 30% 0);
     display: block;
@@ -145,19 +145,19 @@
     top: 70px;
 }
 
-.banner-summer-season > .extra-online {
+.banner-summer-season>.extra-online {
     font-size: 2.5rem;
     color: var(--color-white);
     font-family: "Poppins";
 }
 
-.banner-summer-season > .summer-sale {
+.banner-summer-season>.summer-sale {
     font-size: 5rem;
     color: var(--color-white);
     font-family: "Poppins";
 }
 
-.banner-summer-season > .summer-text {
+.banner-summer-season>.summer-text {
     font-size: 1.5rem;
     color: var(--color-white);
     font-family: "Poppins";
@@ -167,7 +167,7 @@
 
 }
 
-.banner-summer-season > .shop-btn {
+.banner-summer-season>.shop-btn {
     width: 135px;
     height: 50px;
     padding: 1.5rem;
@@ -183,50 +183,50 @@
     margin-bottom: 5rem;
 }
 
-.banner-summer-season > .shop-btn:hover {
+.banner-summer-season>.shop-btn:hover {
     background-color: var(--color-white);
     color: var(--color-primary);
     border: none;
-    box-shadow: 1px 1px 49px -3px rgba(0,0,0,0.55);
+    box-shadow: 1px 1px 49px -3px rgba(0, 0, 0, 0.55);
 }
+
 /* icons */
 
 .features-container {
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
-    background-color: #fff; 
-    padding: 100px 200px; 
-  }
-  
-  .feature-item {
-    display: flex; 
-    align-items: center; 
-    max-width: 300px; 
-  }
-  
-  .feature-icon {
-    width: 50px; 
-    height: auto;
-    margin-right: 15px; 
-  }
-  
-  .feature-text {
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 100px 200px;
+}
+
+.feature-item {
     display: flex;
-    flex-direction: column; 
-  }
-  
-  .feature-text h3 {
+    align-items: center;
+    max-width: 300px;
+}
+
+.feature-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-text h3 {
     font-size: 2rem;
-    color: var(--color-black); 
-    margin: 0; 
+    color: var(--color-black);
+    margin: 0;
     opacity: 0.7;
-  }
-  
-  .feature-text p {
+}
+
+.feature-text p {
     font-size: 14px;
-    color: #666; 
-    margin: 5px 0 0 0; 
-  }
-  
-  
+    color: #666;
+    margin: 5px 0 0 0;
+}
+

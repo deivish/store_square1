@@ -66,3 +66,45 @@
     object-fit: contain;
     
 }
+
+/* Estilos responsivos */
+
+/* Tablets grandes o pantallas medianas */
+@media screen and (max-width: 1024px) {
+    .brands {
+        gap: 20px;
+        padding: 15px;
+        height: 180px;
+    }
+
+    .brands > img {
+        max-width: 150px;
+    }
+}
+
+/* Tablets pequeñas o pantallas más reducidas */
+@media screen and (max-width: 768px) {
+    .brands {
+        gap: 15px;
+        padding: 10px;
+        height: 160px;
+    }
+
+    .brands > img {
+        max-width: 120px;
+    }
+}
+
+/* Teléfonos móviles */
+@media screen and (max-width: 480px) {
+    .brands {
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .brands > img {
+        max-width: 100px;
+    }
+}
