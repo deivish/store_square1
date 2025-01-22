@@ -18,7 +18,7 @@
     gap: 20px;
     width: 100%;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     border: none;
     justify-self: center;
 }
@@ -38,7 +38,7 @@
 }
 
 .payment-form {
-    background-color: #F5F5F5;
+    background-color: var(--color-white);
     padding-bottom: 15px 0;
     justify-content: center;
     display: flex;
@@ -128,7 +128,7 @@ label input {
 .pay-now {
     display: block;
     width: 100%;
-    background-color: #ff0000;
+    background-color: var(--color-primary);
     color: #ffffff;
     padding: 10px;
     font-size: 16px;
@@ -140,7 +140,7 @@ label input {
 }
 
 .pay-now:hover {
-    background-color: #cc0000;
+    background-color: var(--color-primary);
 }
 
 .custom-select-container {
@@ -173,11 +173,11 @@ footer {
     text-align: center;
     font-size: 12px;
     margin-top: 20px;
-    color: #666666;
+    color: var(--color-gray);
 }
 
 .right-column {
-    background-color: #F5F5F5;
+    background-color: var(--color-white);
     padding: 20px;
     border: 1px solid #ddd;
 }
