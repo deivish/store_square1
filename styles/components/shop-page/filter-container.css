@@ -306,13 +306,12 @@
     border-color: var(--color-primary);
 }
 
-/* Responsividad para pantallas más pequeñas */
+
 @media (max-width: 1024px) {
     .filters-column {
         width: 100%;
     }
 
-    /* Los elementos de filtros ahora se alinean a la izquierda en pantallas pequeñas */
     .filter-sizes,
     .filter-colors,
     .filter-price,
@@ -321,35 +320,36 @@
         justify-content: flex-start;
         width: 100%;
     }
-    
-   
+
+
     .filter ul {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
     }
-   
+
 
     .filter-tag {
-        flex-direction: row; /* Mantén horizontal en este caso */
-        justify-content: space-between; /* Espaciado entre los elementos */
-        gap: 10px; /* Espacio adicional entre los tags */
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
     }
+
     .filter-sizes {
         grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-        /* Acomoda los tamaños en varias líneas */
+
     }
 
     .shop-card_brands {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        /* Ajuste para marcas */
+
     }
 }
 
 @media (max-width: 768px) {
     .filters-column {
         width: 100%;
-        /* Ocupa toda la pantalla en dispositivos más pequeños */
+
         padding: 10px;
     }
 
@@ -359,7 +359,7 @@
     .shop-card_brands,
     .filter-tag ul {
         flex-direction: column;
-        /* Cambia a columna en pantallas más pequeñas */
+
     }
 
     .shop-card-size,
@@ -367,15 +367,15 @@
     .shop-card_brands button,
     .filter-price button {
         font-size: 1.6rem;
-        /* Ajusta el tamaño de los botones */
+
     }
 }
 
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .shop-card_tittle {
-        font-size: 1.8rem; /* Reduce el tamaño del título */
+        font-size: 1.8rem;
     }
 
     .shop-card_price>.shop-card_discount-price {
@@ -389,11 +389,11 @@
 
 @media (max-width: 768px) {
     .card-grid {
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Ajuste para pantallas más pequeñas */
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
 
     .shop-card {
-        padding: 0.8rem; /* Reduce el padding */
+        padding: 0.8rem;
     }
 
     .shop-card_tittle {
@@ -401,6 +401,6 @@
     }
 
     .shop-card_price {
-        gap: 10px; /* Reduce el espacio entre precios */
+        gap: 10px;
     }
 }
